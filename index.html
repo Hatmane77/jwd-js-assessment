@@ -15,8 +15,9 @@
       crossorigin="anonymous"
     />
     <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body style="background-color: yellow;">
     <div class="container m-5" id="start">
       <div class="card" style="width: 18rem">
         <div class="card-body">
@@ -28,7 +29,7 @@
     </div>
 
     <!-- (B) QUIZ CONTAINER -->
-    <div class="container" id="quizBlock" style="display: none">
+    <div class="container" id="quizBlock" style="display: none" style="background-color: black;">
       <div class="mb-5">
         <h2>Test your knowledge</h2>
         - Time remaining <span id="time">01:00</span>
@@ -39,7 +40,7 @@
         <button type="button" class="btn btn-primary" id="btnSubmit">
           Submit Quiz
         </button>
-        <button type="button" class="btn btn-primary" id="btnReset">
+        <button type="button" class="btn btn-primary" id="Resetbtn">
           Reset Quiz
         </button>
         <span id="score"></span>
@@ -64,5 +65,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/index.js"></script>
+    
   </body>
 </html>
